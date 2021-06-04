@@ -2,6 +2,7 @@
 
 use Alura\Cursos\Controller\Alterar;
 use Alura\Cursos\Controller\BuscarCursoEmJson;
+use Alura\Cursos\Controller\BuscarCursosEmXml;
 use Alura\Cursos\Controller\Deslogar;
 use Alura\Cursos\Controller\Exclusao;
 use Alura\Cursos\Controller\FormularioInsercao;
@@ -19,5 +20,6 @@ return [
     "/login"        => Login::class,
     "/realizaLogin"=>RealizaLogin::class,
     "/deslogar"=> Deslogar::class,
-    "/json"=>BuscarCursoEmJson::class
+    "/json"=>BuscarCursoEmJson::class,
+    "/xml"=> BuscarCursosEmXml::class
  ];
